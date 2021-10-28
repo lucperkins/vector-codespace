@@ -1,1 +1,3 @@
+ARG VECTOR_VERSION
+
 FROM timberio/vector:${VECTOR_VERSION}-alpine
