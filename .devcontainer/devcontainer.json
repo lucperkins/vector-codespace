@@ -9,5 +9,6 @@
     "redhat-developer.vscode-yaml",
     "ZainChen.vscode-json"
   ],
-  "forwardPorts": [8686]
+  "forwardPorts": [8686],
+  "workspaceFolder": "/etc/vector"
 }
