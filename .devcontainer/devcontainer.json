@@ -8,7 +8,7 @@
   },
   "extensions": [
     "lucperkins.vrl-vscode",
-    "be5invis.vscode-toml",
+    "bungcip.better-toml",
     "redhat-developer.vscode-yaml",
     "ZainChen.vscode-json"
   ]
