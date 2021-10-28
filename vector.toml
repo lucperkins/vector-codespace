@@ -2,8 +2,13 @@
 type = "generator"
 format = "syslog"
 
+[transforms.parse]
+type = "remap"
+inputs = ["generate"]
+file = "./parse.vrl"
+
 [sinks.cli_out]
 type = "console"
-inputs = ["generate"]
+inputs = ["parse"]
 target = "stdout"
 encoding = { codec = "json" }

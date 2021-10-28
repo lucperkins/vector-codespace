@@ -1,0 +1,6 @@
+obj, err = parse_syslog(string!(.message))
+if err != null {
+  log(err, level: "error")
+}
+
+. = obj
