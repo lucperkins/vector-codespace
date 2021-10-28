@@ -1,0 +1,1 @@
+FROM timberio/vector:${VECTOR_VERSION}-alpine

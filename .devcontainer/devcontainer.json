@@ -1,0 +1,15 @@
+{
+  "name": "Vector Codespace",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      "VECTOR_VERSION": "0.17.3"
+    }
+  },
+  "extensions": [
+    "lucperkins.vrl-vscode",
+    "be5invis.vscode-toml",
+    "redhat-developer.vscode-yaml",
+    "ZainChen.vscode-json"
+  ]
+}
