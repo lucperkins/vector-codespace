@@ -8,5 +8,6 @@
     "bungcip.better-toml",
     "redhat-developer.vscode-yaml",
     "ZainChen.vscode-json"
-  ]
+  ],
+  "forwardPorts": [8686]
 }
