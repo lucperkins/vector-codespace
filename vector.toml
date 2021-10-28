@@ -1,0 +1,9 @@
+[sources.generate]
+type = "generator"
+format = "syslog"
+
+[sinks.cli_out]
+type = "console"
+inputs = ["generate"]
+target = "stdout"
+encoding = { codec = "json" }

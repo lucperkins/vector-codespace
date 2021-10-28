@@ -9,3 +9,5 @@ curl -1sLf \
   | sudo -E bash
 
 apt-get install -y vector=0.17.3
+
+rm -rf /etc/vector/*
