@@ -1,10 +1,7 @@
 {
   "name": "Vector Codespace",
   "build": {
-    "dockerfile": "Dockerfile",
-    "args": {
-      "VECTOR_VERSION": "0.17.3"
-    }
+    "dockerfile": "Dockerfile"
   },
   "extensions": [
     "lucperkins.vrl-vscode",

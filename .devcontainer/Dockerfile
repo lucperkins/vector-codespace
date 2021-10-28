@@ -1,3 +1,7 @@
-ARG VECTOR_VERSION
+FROM ubuntu:21.10
 
-FROM timberio/vector:${VECTOR_VERSION}-alpine
+WORKDIR /home/
+
+COPY . .
+
+RUN ./setup.sh
