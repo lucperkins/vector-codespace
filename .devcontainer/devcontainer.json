@@ -10,5 +10,6 @@
     "ZainChen.vscode-json"
   ],
   "forwardPorts": [8686],
-  "workspaceFolder": "/etc/vector"
+  "workspaceMount": "source=${localWorkspaceFolder},target=/etc/vector,type=bind,consistency=delegated",
+  "workspaceFolder": "/etc/vector",
 }
