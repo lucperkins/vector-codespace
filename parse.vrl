@@ -1,6 +1,8 @@
+# Parse JSON-encoded string into object
 obj, err = parse_json(string!(.message))
 if err != null {
   log(err, level: "error")
 }
 
+# Set the value of the event to the decoded object
 . = obj
