@@ -1,4 +1,4 @@
-obj, err = parse_syslog(string!(.message))
+obj, err = parse_json(string!(.message))
 if err != null {
   log(err, level: "error")
 }

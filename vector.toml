@@ -1,6 +1,6 @@
 [sources.generate]
 type = "generator"
-format = "syslog"
+format = "json"
 
 [transforms.parse]
 type = "remap"
